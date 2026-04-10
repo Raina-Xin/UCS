@@ -1,0 +1,16 @@
+name: ucs
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pyarrow
+  - numpy>=1.23.4
+  - scipy
+  - scikit-learn>=1.2.1
+  - matplotlib
+  - tqdm
+
