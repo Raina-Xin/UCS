@@ -31,7 +31,7 @@ pip install transformers datasets accelerate huggingface_hub scikit-learn senten
 All three datasets are loaded automatically from HuggingFace Datasets.
 
 ### Reasoning (BBEH)
-- **Causal Understanding**, **Object Properties**, **Shuffled Objects** from [Big-Bench Extra Hard](https://github.com/google/BIG-Bench-Extra-Hard)
+- **Causal Understanding**, **Object Properties**, **Shuffled Objects** from [Big-Bench Extra Hard](https://github.com/google-deepmind/bbeh)
 
 Place BBEH task JSON files under `bbeh/benchmark_tasks/<task_name>/task.json`.
 
