@@ -3,7 +3,7 @@
 
 Official implementation for "UCS: Estimating Unseen Coverage for Improved In-Context Learning" accepted by ACL 2026 (Findings).
 
-- Authors: [Jiayi Xin](https://raina-xin.github.io/), [Xiang Li](https://lx10077.github.io/), [Evan Qiang](https://openreview.net/profile?id=~Evan_Qiang1), [Weiqing He](https://openreview.net/profile?id=~Weiqing_He1), [Tianqi Shang](https://openreview.net/profile?id=~Tianqi_Shang1), [Weijie J. Su](http://stat.wharton.upenn.edu/~suw/) and [Qi Long](https://www.med.upenn.edu/long-lab/)
+- Authors: [Jiayi Xin](https://raina-xin.github.io/), [Xiang Li](https://lx10077.github.io/), [Evan Qiang](https://openreview.net/profile?id=~Evan_Qiang1), [Weiqing He](https://openreview.net/profile?id=~Weiqing_He1), [Tianqi Shang](https://openreview.net/profile?id=~Tianqi_Shang1), [Weijie J. Su](https://www.weijie-su.com/) and [Qi Long](https://www.med.upenn.edu/long-lab/)
 - Paper Link: https://openreview.net/forum?id=ZRHYQi8lIV
 
 ## Overview
@@ -12,7 +12,7 @@ In-context learning (ICL) performance depends critically on which demonstrations
 
 UCS operationalizes this idea by **(1)** inducing discrete latent *coverage units* from model-consistent embeddings and **(2)** estimating the number of unrevealed units within a candidate subset via a Smoothed Good–Turing style estimator from its empirical frequency spectrum. UCS is training-free and can be seamlessly combined with both query-dependent and query-independent selection baselines via a simple regularized objective.
 
-<img src="assets/ucs_schematic.pdf" width="100%">
+<img src="assets/ucs_schematic.png" width="100%">
 
 ## Environment Setup
 ```shell
