@@ -114,13 +114,26 @@ where K_seen counts distinct observed units and Û_t estimates additional unreve
 | **MDL+UCS** | Subset scoring: `argmax MDL(S;x) + λΦ(S)` |
 | **VoteK+UCS** | Additive: `score(i) = v(i) + λ·log(w_c)`, where w_c ∝ (ĝ_{n_c} + ε)⁻¹ |
 
+## Acknowledgement
+
+This repository is built upon [OpenICL](https://github.com/Shark-NLP/OpenICL). We thank the authors for their open-source contribution.
+
 ## Citation
+
+If you find this repository helpful, please cite our paper and the OpenICL paper:
 ```
 @inproceedings{xin2026ucs,
   title={UCS: Estimating Unseen Coverage for Improved In-Context Learning},
   author={Xin, Jiayi and Li, Xiang and Qiang, Evan and He, Weiqing and Shang, Tianqi and Su, Weijie J. and Long, Qi},
   booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
   year={2026}
+}
+
+@article{wu2023openicl,
+  title={OpenICL: An Open-Source Framework for In-context Learning},
+  author={Zhenyu Wu and Yaoxiang Wang and Jiacheng Ye and Jiangtao Feng and Jingjing Xu and Yu Qiao and Zhiyong Wu},
+  journal={arXiv preprint arXiv:2303.02913},
+  year={2023}
 }
 ```
 
