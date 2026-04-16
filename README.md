@@ -122,11 +122,11 @@ This repository is built upon [OpenICL](https://github.com/Shark-NLP/OpenICL). W
 
 If you find this repository helpful, please cite our paper and the OpenICL paper:
 ```
-@inproceedings{xin2026ucs,
+@inproceedings{Xin2026UCSEU,
   title={UCS: Estimating Unseen Coverage for Improved In-Context Learning},
-  author={Xin, Jiayi and Li, Xiang and Qiang, Evan and He, Weiqing and Shang, Tianqi and Su, Weijie J. and Long, Qi},
-  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
-  year={2026}
+  author={Jiayi Xin and Xiang Li and Evan Qiang and Weiqing He and Tianqi Shang and Weijie J. Su and Qi Long},
+  year={2026},
+  url={https://api.semanticscholar.org/CorpusID:287436364}
 }
 
 @article{wu2023openicl,
