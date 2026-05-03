@@ -4,7 +4,7 @@
 Official implementation for "UCS: Estimating Unseen Coverage for Improved In-Context Learning" accepted by ACL 2026 (Findings).
 
 - Authors: [Jiayi Xin](https://raina-xin.github.io/), [Xiang Li](https://lx10077.github.io/), [Evan Qiang](https://openreview.net/profile?id=~Evan_Qiang1), [Weiqing He](https://openreview.net/profile?id=~Weiqing_He1), [Tianqi Shang](https://openreview.net/profile?id=~Tianqi_Shang1), [Weijie J. Su](https://www.weijie-su.com/) and [Qi Long](https://www.med.upenn.edu/long-lab/)
-- Paper Link: https://openreview.net/forum?id=ZRHYQi8lIV
+- Paper Link: arxiv.org/abs/2604.12015
 
 ## Overview
 
